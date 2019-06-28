@@ -1,4 +1,7 @@
 {
+    "instance": {
+        "@automaticShutdown": "30"
+    },
     "language": {
         "tern_defs": {
             "json()": {
@@ -13,6 +16,10 @@
                 }
             }
         }
+    },
+    "python": {
+        "@formatOnSave": true,
+        "@version": "python3"
     },
     "run": {
         "configs": {
